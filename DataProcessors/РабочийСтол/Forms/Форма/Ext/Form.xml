@@ -197,7 +197,7 @@
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>в разработке</v8:content>
+													<v8:content>http://amelihov.ru</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
@@ -354,22 +354,10 @@
 									<ExtendedTooltip name="ГруппаАрсенМаркарянРасширеннаяПодсказка" id="135"/>
 									<ChildItems>
 										<LabelDecoration name="Декорация13" id="136">
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>aaaaaaaa</v8:content>
-												</v8:item>
-											</Title>
 											<ContextMenu name="Декорация13КонтекстноеМеню" id="137"/>
 											<ExtendedTooltip name="Декорация13РасширеннаяПодсказка" id="138"/>
 										</LabelDecoration>
 										<LabelDecoration name="Декорация14" id="139">
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>aaaaaa</v8:content>
-												</v8:item>
-											</Title>
 											<Hyperlink>true</Hyperlink>
 											<ContextMenu name="Декорация14КонтекстноеМеню" id="140"/>
 											<ExtendedTooltip name="Декорация14РасширеннаяПодсказка" id="141"/>
@@ -420,7 +408,7 @@
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>aaaaaaaa</v8:content>
+													<v8:content>Репозиторий проекта</v8:content>
 												</v8:item>
 											</Title>
 											<ContextMenu name="Декорация9КонтекстноеМеню" id="51"/>
@@ -430,7 +418,7 @@
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
-													<v8:content>aaaaaa</v8:content>
+													<v8:content>https://github.com/poleznieglup0sti/perfect-nutrition-1C</v8:content>
 												</v8:item>
 											</Title>
 											<Hyperlink>true</Hyperlink>
