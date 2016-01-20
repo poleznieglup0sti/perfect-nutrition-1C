@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+	<DataProcessor uuid="42507270-c4f9-4c3f-8e1c-3846be6ca107">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.РабочийСтол" category="Object">
+				<xr:TypeId>fe72251c-36ed-4048-b9e9-8852de4a3204</xr:TypeId>
+				<xr:ValueId>49bd45db-4c90-4e8d-a8d1-8244120113c3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.РабочийСтол" category="Manager">
+				<xr:TypeId>38fad80d-0580-4cea-a822-756aecda8419</xr:TypeId>
+				<xr:ValueId>61b0a10a-26d1-49a1-b9e9-a013a2a95b7e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>РабочийСтол</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Рабочий стол</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.РабочийСтол.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Form>Форма</Form>
+			<Template>Статья_Аутолиз</Template>
+			<Template>Статья_Пищеварение</Template>
+			<Template>Статья_ВлияниеПриготовленнойПищи</Template>
+			<Template>Статья_ВредМолокаЧасть1</Template>
+			<Template>Статья_ВредМолокаЧасть2</Template>
+			<Template>Статья_ВредМолокаЧасть3</Template>
+		</ChildObjects>
+	</DataProcessor>
+</MetaDataObject>

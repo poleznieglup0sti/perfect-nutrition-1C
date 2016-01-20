@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Родитель" id="78">
+			<DataPath>Объект.Родитель</DataPath>
+			<ContextMenu name="РодительКонтекстноеМеню" id="79"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="80"/>
+		</InputField>
+		<UsualGroup name="ГруппаШапка" id="38">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="39"/>
+			<ChildItems>
+				<InputField name="Страница" id="1">
+					<DataPath>Объект.Страница</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="СтраницаКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="СтраницаРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<Button name="ЗагрузитьПродуктыПоКатегории" id="40">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗагрузитьПродуктыПоКатегории</CommandName>
+					<Parameter xsi:nil="true"/>
+					<ExtendedTooltip name="ЗагрузитьПродуктыПоКатегорииРасширеннаяПодсказка" id="41"/>
+				</Button>
+				<Button name="ПолучитьДанные" id="76">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ПолучитьДанные</CommandName>
+					<Parameter xsi:nil="true"/>
+					<ExtendedTooltip name="ПолучитьДанныеРасширеннаяПодсказка" id="77"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Pages name="ГруппаСтраницы" id="32">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа страницы</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаСтраницыРасширеннаяПодсказка" id="33"/>
+			<ChildItems>
+				<Page name="ГруппаСтраницыПоКатегории" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продукты по категории</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа страницы по категории</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаСтраницыПоКатегорииРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<Table name="СписокСтраниц" id="44">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.СписокСтраниц</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокСтраницКонтекстноеМеню" id="45"/>
+							<AutoCommandBar name="СписокСтраницКоманднаяПанель" id="46"/>
+							<ExtendedTooltip name="СписокСтраницРасширеннаяПодсказка" id="47"/>
+							<SearchStringAddition name="СписокСтраницСтрокаПоиска" id="48">
+								<Source>
+									<lf:elementId>44</lf:elementId>
+									<lf:additionId>0</lf:additionId>
+								</Source>
+								<ContextMenu name="СписокСтраницСтрокаПоискаКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="СписокСтраницСтрокаПоискаРасширеннаяПодсказка" id="50"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокСтраницСостояниеПросмотра" id="51">
+								<Source>
+									<lf:elementId>44</lf:elementId>
+									<lf:additionId>1</lf:additionId>
+								</Source>
+								<ContextMenu name="СписокСтраницСостояниеПросмотраКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="СписокСтраницСостояниеПросмотраРасширеннаяПодсказка" id="53"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокСтраницУправлениеПоиском" id="54">
+								<Source>
+									<lf:elementId>44</lf:elementId>
+									<lf:additionId>2</lf:additionId>
+								</Source>
+								<ContextMenu name="СписокСтраницУправлениеПоискомКонтекстноеМеню" id="55"/>
+								<ExtendedTooltip name="СписокСтраницУправлениеПоискомРасширеннаяПодсказка" id="56"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокСтраницНомерСтроки" id="57">
+									<DataPath>Объект.СписокСтраниц.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокСтраницНомерСтрокиКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="СписокСтраницНомерСтрокиРасширеннаяПодсказка" id="59"/>
+								</LabelField>
+								<InputField name="СписокСтраницАдресURL" id="60">
+									<DataPath>Объект.СписокСтраниц.АдресURL</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокСтраницАдресURLКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="СписокСтраницАдресURLРасширеннаяПодсказка" id="62"/>
+								</InputField>
+								<InputField name="СписокСтраницНаименование" id="63">
+									<DataPath>Объект.СписокСтраниц.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокСтраницНаименованиеКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="СписокСтраницНаименованиеРасширеннаяПодсказка" id="65"/>
+								</InputField>
+								<InputField name="СписокСтраницКалорийность" id="81">
+									<DataPath>Объект.СписокСтраниц.Калорийность</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокСтраницКалорийностьКонтекстноеМеню" id="82"/>
+									<ExtendedTooltip name="СписокСтраницКалорийностьРасширеннаяПодсказка" id="83"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаХимСоставПродукта" id="36">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Хим состав продуктов</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа хим состав продукта</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаХимСоставПродуктаРасширеннаяПодсказка" id="37"/>
+					<ChildItems>
+						<Table name="ХимСостав" id="4">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ХимСостав</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ХимСоставКонтекстноеМеню" id="5"/>
+							<AutoCommandBar name="ХимСоставКоманднаяПанель" id="6"/>
+							<ExtendedTooltip name="ХимСоставРасширеннаяПодсказка" id="7"/>
+							<SearchStringAddition name="ХимСоставСтрокаПоиска" id="8">
+								<Source>
+									<lf:elementId>4</lf:elementId>
+									<lf:additionId>0</lf:additionId>
+								</Source>
+								<ContextMenu name="ХимСоставСтрокаПоискаКонтекстноеМеню" id="9"/>
+								<ExtendedTooltip name="ХимСоставСтрокаПоискаРасширеннаяПодсказка" id="10"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ХимСоставСостояниеПросмотра" id="11">
+								<Source>
+									<lf:elementId>4</lf:elementId>
+									<lf:additionId>1</lf:additionId>
+								</Source>
+								<ContextMenu name="ХимСоставСостояниеПросмотраКонтекстноеМеню" id="12"/>
+								<ExtendedTooltip name="ХимСоставСостояниеПросмотраРасширеннаяПодсказка" id="13"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ХимСоставУправлениеПоиском" id="14">
+								<Source>
+									<lf:elementId>4</lf:elementId>
+									<lf:additionId>2</lf:additionId>
+								</Source>
+								<ContextMenu name="ХимСоставУправлениеПоискомКонтекстноеМеню" id="15"/>
+								<ExtendedTooltip name="ХимСоставУправлениеПоискомРасширеннаяПодсказка" id="16"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ХимСоставНаименование" id="17">
+									<DataPath>Объект.ХимСостав.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХимСоставНаименованиеКонтекстноеМеню" id="18"/>
+									<ExtendedTooltip name="ХимСоставНаименованиеРасширеннаяПодсказка" id="19"/>
+								</InputField>
+								<InputField name="ХимСоставНутриент" id="20">
+									<DataPath>Объект.ХимСостав.Нутриент</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХимСоставНутриентКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="ХимСоставНутриентРасширеннаяПодсказка" id="22"/>
+								</InputField>
+								<InputField name="ХимСоставКоличество" id="23">
+									<DataPath>Объект.ХимСостав.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХимСоставКоличествоКонтекстноеМеню" id="24"/>
+									<ExtendedTooltip name="ХимСоставКоличествоРасширеннаяПодсказка" id="25"/>
+								</InputField>
+								<InputField name="ХимСоставТипНутриента" id="26">
+									<DataPath>Объект.ХимСостав.ТипНутриента</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХимСоставТипНутриентаКонтекстноеМеню" id="27"/>
+									<ExtendedTooltip name="ХимСоставТипНутриентаРасширеннаяПодсказка" id="28"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаОбщиеПоказатели" id="84">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Общие показатели</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа общие показатели</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаОбщиеПоказателиРасширеннаяПодсказка" id="85"/>
+					<ChildItems>
+						<Table name="ХимСоставОбщиеПоказатели" id="86">
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ХимСоставОбщиеПоказатели</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ХимСоставОбщиеПоказателиКонтекстноеМеню" id="87"/>
+							<AutoCommandBar name="ХимСоставОбщиеПоказателиКоманднаяПанель" id="88"/>
+							<ExtendedTooltip name="ХимСоставОбщиеПоказателиРасширеннаяПодсказка" id="89"/>
+							<SearchStringAddition name="ХимСоставОбщиеПоказателиСтрокаПоиска" id="90">
+								<Source>
+									<lf:elementId>86</lf:elementId>
+									<lf:additionId>0</lf:additionId>
+								</Source>
+								<ContextMenu name="ХимСоставОбщиеПоказателиСтрокаПоискаКонтекстноеМеню" id="91"/>
+								<ExtendedTooltip name="ХимСоставОбщиеПоказателиСтрокаПоискаРасширеннаяПодсказка" id="92"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ХимСоставОбщиеПоказателиСостояниеПросмотра" id="93">
+								<Source>
+									<lf:elementId>86</lf:elementId>
+									<lf:additionId>1</lf:additionId>
+								</Source>
+								<ContextMenu name="ХимСоставОбщиеПоказателиСостояниеПросмотраКонтекстноеМеню" id="94"/>
+								<ExtendedTooltip name="ХимСоставОбщиеПоказателиСостояниеПросмотраРасширеннаяПодсказка" id="95"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ХимСоставОбщиеПоказателиУправлениеПоиском" id="96">
+								<Source>
+									<lf:elementId>86</lf:elementId>
+									<lf:additionId>2</lf:additionId>
+								</Source>
+								<ContextMenu name="ХимСоставОбщиеПоказателиУправлениеПоискомКонтекстноеМеню" id="97"/>
+								<ExtendedTooltip name="ХимСоставОбщиеПоказателиУправлениеПоискомРасширеннаяПодсказка" id="98"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ХимСоставОбщиеПоказателиНомерСтроки" id="99">
+									<DataPath>Объект.ХимСоставОбщиеПоказатели.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХимСоставОбщиеПоказателиНомерСтрокиКонтекстноеМеню" id="100"/>
+									<ExtendedTooltip name="ХимСоставОбщиеПоказателиНомерСтрокиРасширеннаяПодсказка" id="101"/>
+								</LabelField>
+								<InputField name="ХимСоставОбщиеПоказателиНаименование" id="102">
+									<DataPath>Объект.ХимСоставОбщиеПоказатели.Наименование</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХимСоставОбщиеПоказателиНаименованиеКонтекстноеМеню" id="103"/>
+									<ExtendedTooltip name="ХимСоставОбщиеПоказателиНаименованиеРасширеннаяПодсказка" id="104"/>
+								</InputField>
+								<InputField name="ХимСоставОбщиеПоказателиНутриент" id="105">
+									<DataPath>Объект.ХимСоставОбщиеПоказатели.Нутриент</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХимСоставОбщиеПоказателиНутриентКонтекстноеМеню" id="106"/>
+									<ExtendedTooltip name="ХимСоставОбщиеПоказателиНутриентРасширеннаяПодсказка" id="107"/>
+								</InputField>
+								<InputField name="ХимСоставОбщиеПоказателиКоличество" id="108">
+									<DataPath>Объект.ХимСоставОбщиеПоказатели.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХимСоставОбщиеПоказателиКоличествоКонтекстноеМеню" id="109"/>
+									<ExtendedTooltip name="ХимСоставОбщиеПоказателиКоличествоРасширеннаяПодсказка" id="110"/>
+								</InputField>
+								<InputField name="ХимСоставОбщиеПоказателиТипНутриента" id="111">
+									<DataPath>Объект.ХимСоставОбщиеПоказатели.ТипНутриента</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ХимСоставОбщиеПоказателиТипНутриентаКонтекстноеМеню" id="112"/>
+									<ExtendedTooltip name="ХимСоставОбщиеПоказателиТипНутриентаРасширеннаяПодсказка" id="113"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+		<UsualGroup name="ГруппаПодвал" id="66">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="67"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация2" id="71">
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="73"/>
+				</LabelDecoration>
+				<Button name="ЗагрузитьДанные" id="74">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗагрузитьДанные</CommandName>
+					<Parameter xsi:nil="true"/>
+					<ExtendedTooltip name="ЗагрузитьДанныеРасширеннаяПодсказка" id="75"/>
+				</Button>
+				<LabelDecoration name="Декорация1" id="68">
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="70"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЗагрузкаСIntelmeal</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗагрузитьПродуктыПоКатегории" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить продукты по категории</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить продукты по категории</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>CommonPicture.ЗаполнитьФорму</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ЗагрузитьПродуктыПоКатегории</Action>
+			<Representation>Picture</Representation>
+		</Command>
+		<Command name="ЗагрузитьДанные" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьДанные</Action>
+		</Command>
+		<Command name="ПолучитьДанные" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Picture>
+				<xr:Ref>StdPicture.ShowInList</xr:Ref>
+				<xr:LoadTransparent>true</xr:LoadTransparent>
+			</Picture>
+			<Action>ПолучитьДанные</Action>
+			<Representation>Picture</Representation>
+		</Command>
+	</Commands>
+</Form>

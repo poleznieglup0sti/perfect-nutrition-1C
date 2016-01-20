@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.0">
+	<Item id="2c1f4167-450c-4b7e-8c00-8884e6e2504b">
+		<Name>Аминокислоты</Name>
+		<Code/>
+		<Description>Аминокислоты</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="e410b4cf-7dec-4e40-8bef-1580a7d5cfff">
+				<Name>Заменимые</Name>
+				<Code/>
+				<Description>Заменимые</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="b4bc6a96-e97b-429a-bf76-777b9ead1b68">
+						<Name>Аланин</Name>
+						<Code/>
+						<Description>Аланин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="95fc0887-d9ee-4907-9243-028851e1da7f">
+						<Name>АспарагиноваяКислота</Name>
+						<Code/>
+						<Description>Аспарагиновая кислота</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="89ecacf4-cdc0-4979-9f7a-d5b8d33dc146">
+						<Name>Гидроксипролин</Name>
+						<Code/>
+						<Description>Гидроксипролин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="ef9a37f8-8cb4-4a92-8196-0d7075aa715d">
+						<Name>Глицин</Name>
+						<Code/>
+						<Description>Глицин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="eb610be6-bdd2-4d53-83cc-542a35baf6b5">
+						<Name>ГлутаминоваяКислота</Name>
+						<Code/>
+						<Description>Глутаминовая кислота</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="b89eb869-d101-460d-a7ba-8b870042f5b9">
+						<Name>Пролин</Name>
+						<Code/>
+						<Description>Пролин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="ea136deb-c85b-41e0-8c78-a7ecc37f5bfe">
+						<Name>Серин</Name>
+						<Code/>
+						<Description>Серин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="4d75b173-5283-47be-bccf-916260f658f9">
+						<Name>Тирозин</Name>
+						<Code/>
+						<Description>Тирозин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="7cffcadf-bb71-4704-b87d-505aad3bc7bb">
+						<Name>Цистин</Name>
+						<Code/>
+						<Description>Цистин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="addff367-b54f-4e63-b013-96d8eecdb008">
+				<Name>Незаменимые</Name>
+				<Code/>
+				<Description>Незаменимые</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="9c255f21-95ad-4971-8a5a-7b93ea06f90b">
+						<Name>Валин</Name>
+						<Code/>
+						<Description>Валин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="ee52f700-5964-4c1d-84eb-fb057e314854">
+						<Name>Изолейцин</Name>
+						<Code/>
+						<Description>Изолейцин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="de0eb3d5-64e1-4a76-a6f1-6429c72295d7">
+						<Name>Лейцин</Name>
+						<Code/>
+						<Description>Лейцин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="2d262dbf-16ab-4ddb-9339-c817e1bd86e2">
+						<Name>Лизин</Name>
+						<Code/>
+						<Description>Лизин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="3c1c111c-4cf8-4b7d-a6ef-7b2672eaa490">
+						<Name>Метионин</Name>
+						<Code/>
+						<Description>Метионин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="04ca714c-3293-4b41-b82e-f1dbd628654c">
+						<Name>Треонин</Name>
+						<Code/>
+						<Description>Треонин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="55693ef1-934b-46b1-8b59-1061d9225426">
+						<Name>Триптофан</Name>
+						<Code/>
+						<Description>Триптофан</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="85f3490c-8872-4f4f-bfc4-9fa1fdbe4fee">
+						<Name>Фенилаланин</Name>
+						<Code/>
+						<Description>Фенилаланин</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="f6fe9813-0a88-4de3-bb2b-fbe07a24054f">
+				<Name>Аргинин</Name>
+				<Code/>
+				<Description>Аргинин</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="616272ed-0b69-4538-a404-406e7a117f30">
+				<Name>Гистидин</Name>
+				<Code/>
+				<Description>Гистидин</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="15ceb32a-8f9b-4f19-a9d3-13d79cb3efec">
+		<Name>Витамины</Name>
+		<Code/>
+		<Description>Витамины</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="860867d2-d8a0-4dee-b655-e9c6a8af9698">
+				<Name>Бетаин</Name>
+				<Code/>
+				<Description>Бетаин</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="24023f7f-1079-4e41-9af4-0f1686839ac8">
+				<Name>ВитаминA</Name>
+				<Code/>
+				<Description>Витамин A</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="1a026797-91fb-426e-b8df-76589d38d971">
+				<Name>ВитаминB1</Name>
+				<Code/>
+				<Description>Витамин B1</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="202d9b1e-9291-45d4-9424-b00f02fe47a3">
+				<Name>ВитаминB10</Name>
+				<Code/>
+				<Description>Витамин B10</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b787a4db-c78e-424b-a689-86f3508a63e0">
+				<Name>ВитаминB11</Name>
+				<Code/>
+				<Description>Витамин B11</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="e3d9d1d4-467a-4800-bf40-1038691710f7">
+				<Name>ВитаминB12</Name>
+				<Code/>
+				<Description>Витамин B12</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="39851146-6145-48cd-a8d6-77f1418418d7">
+				<Name>ВитаминB13</Name>
+				<Code/>
+				<Description>Витамин B13</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3e050210-7c1d-4f27-a066-4162bc83c155">
+				<Name>ВитаминB15</Name>
+				<Code/>
+				<Description>Витамин B15</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="d42b9d83-7694-4bc1-896d-01292b963829">
+				<Name>ВитаминB2</Name>
+				<Code/>
+				<Description>Витамин B2</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="7f95cc9b-8003-475a-9a25-8564f6491f4f">
+				<Name>ВитаминB3</Name>
+				<Code/>
+				<Description>Витамин B3</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="3552f9fc-1827-41ba-8a38-1617b50ea687">
+				<Name>ВитаминB4</Name>
+				<Code/>
+				<Description>Витамин B4</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="dbc77b9a-4f16-4d28-947b-4227ece06987">
+				<Name>ВитаминB5</Name>
+				<Code/>
+				<Description>Витамин B5</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="39be4c65-3cfd-4652-814e-f5e1cef400f0">
+				<Name>ВитаминB6</Name>
+				<Code/>
+				<Description>Витамин B6</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="df401f19-7fde-4a7d-9bff-d106377e11b2">
+				<Name>ВитаминB7</Name>
+				<Code/>
+				<Description>Витамин B7</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="808b5875-1840-4b25-bfc2-145acc5bb97f">
+				<Name>ВитаминB8</Name>
+				<Code/>
+				<Description>Витамин B8</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="11b5c10d-06dd-49dc-b507-dc6c4de30c76">
+				<Name>ВитаминB9</Name>
+				<Code/>
+				<Description>Витамин B9</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="b85b49dd-76bc-4f67-90d4-2b9ab198841d">
+				<Name>ВитаминC</Name>
+				<Code/>
+				<Description>Витамин C</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="46d75d84-8bc1-48d0-9cc7-92745ef213a6">
+				<Name>ВитаминD</Name>
+				<Code/>
+				<Description>Витамин D</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="929e7970-2a7c-46ce-800d-222262fddac4">
+				<Name>ВитаминE</Name>
+				<Code/>
+				<Description>Витамин E</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="17129735-f6d5-498b-9eac-21caacb2d25b">
+				<Name>ВитаминK</Name>
+				<Code/>
+				<Description>Витамин K</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="15e0e77a-c97e-46e0-976e-96aa4997d7a4">
+				<Name>ВитаминN</Name>
+				<Code/>
+				<Description>Витамин N</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="6579d426-1202-40f2-bbed-1c6d5f91022a">
+				<Name>ВитаминP</Name>
+				<Code/>
+				<Description>Витамин P</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="ba17b977-0321-4fc0-b157-101e7e29660d">
+				<Name>ВитаминPP</Name>
+				<Code/>
+				<Description>Витамин PP</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="bf1cd8e7-72d4-4c8d-ad30-7243418c565e">
+				<Name>ВитаминU</Name>
+				<Code/>
+				<Description>Витамин U</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="e3798e7d-6b5b-4457-bbaa-5c67ebcff222">
+		<Name>Жиры_</Name>
+		<Code/>
+		<Description>Жиры</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="880c8d1c-288f-4f51-955b-56faed2daa67">
+				<Name>ПНЖК</Name>
+				<Code/>
+				<Description>ПНЖК</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="6d3d28ed-f84d-4ef0-aa82-5224194172b7">
+						<Name>Омега3</Name>
+						<Code/>
+						<Description>Омега 3</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="bbb60527-7544-45c8-9bcb-8095007f8a46">
+						<Name>Омега6</Name>
+						<Code/>
+						<Description>Омега 6</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="d731982f-f9d3-4984-b5c3-a1dd51c89bd8">
+				<Name>МНЖК</Name>
+				<Code/>
+				<Description>МНЖК</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="4584bda4-b7a7-4fd4-887f-f704d414fd9c">
+				<Name>НЖК</Name>
+				<Code/>
+				<Description>НЖК</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="0c165cff-20a9-45f5-aa87-fba7bbf9c839">
+				<Name>Холестерин</Name>
+				<Code/>
+				<Description>Холистерин</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="7d024720-78d7-4cbf-a552-ea6b8c41dc72">
+		<Name>МакроНутриенты</Name>
+		<Code/>
+		<Description>Макро нутриенты</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="ba180b0b-0240-477b-936d-7e3aff92360e">
+				<Name>Белки</Name>
+				<Code/>
+				<Description>Белки</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="9cdff528-dadd-40f4-b9be-4fb380d56c8f">
+				<Name>Жиры</Name>
+				<Code/>
+				<Description>Жиры</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="4788607a-9a39-49d6-a8b9-a7ed92f1b7c7">
+				<Name>Углеводы</Name>
+				<Code/>
+				<Description>Углеводы</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="32623cc2-76e7-4810-9c73-9849ab062f67">
+		<Name>Минералы</Name>
+		<Code/>
+		<Description>Минералы</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="c615adb1-cbb9-459a-837d-2ac155589aad">
+				<Name>Макроэлементы</Name>
+				<Code/>
+				<Description>Макроэлементы</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="e38b2de0-10a2-4e4e-a822-28e1c11d6e71">
+						<Name>Ca</Name>
+						<Code/>
+						<Description>Ca</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="eb24f797-6cb9-4f79-9a30-03196cc3d5f1">
+						<Name>Cl</Name>
+						<Code/>
+						<Description>Cl</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="0e44f872-98f7-47ce-9659-7be396a6bd4f">
+						<Name>K</Name>
+						<Code/>
+						<Description>K</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="dd995ab8-0864-423f-a237-f7d297d8eb57">
+						<Name>Mg</Name>
+						<Code/>
+						<Description>Mg</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="6a1d2a1e-8631-40a4-9e4b-97bf61df9d82">
+						<Name>Na</Name>
+						<Code/>
+						<Description>Na</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="7e90694c-51db-40b0-ba6f-16379e1b0d34">
+						<Name>P</Name>
+						<Code/>
+						<Description>P</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="02100ddd-1baf-422c-8bef-6ac98da114fd">
+						<Name>S</Name>
+						<Code/>
+						<Description>S</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="022b7786-0cf7-4b40-8dce-4b42130874fc">
+						<Name>Si</Name>
+						<Code/>
+						<Description>Si</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+			<Item id="08b895c1-f0f9-4a07-a0d9-ae7c921451e2">
+				<Name>Микроэлементы</Name>
+				<Code/>
+				<Description>Микроэлементы</Description>
+				<IsFolder>true</IsFolder>
+				<ChildItems>
+					<Item id="cf12a31b-1386-47a2-9f0f-304d2db3ac5a">
+						<Name>B</Name>
+						<Code/>
+						<Description>B</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="969fc8bc-4d06-4b04-92ad-8fa4732d3bf0">
+						<Name>Co</Name>
+						<Code/>
+						<Description>Co</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="ed082124-f066-4c34-a9dd-76190e6bda51">
+						<Name>Cr</Name>
+						<Code/>
+						<Description>Cr</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="b796d465-639a-44b9-856e-b8221d4f0915">
+						<Name>Cu</Name>
+						<Code/>
+						<Description>Cu</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="cb5b765e-f032-4452-8f46-91f208be41f8">
+						<Name>F</Name>
+						<Code/>
+						<Description>F</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="c17a794e-6e30-472a-b51f-3d8f4cb6a911">
+						<Name>Fe</Name>
+						<Code/>
+						<Description>Fe</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="9df85760-f698-438b-84cb-6b5009a6765d">
+						<Name>I</Name>
+						<Code/>
+						<Description>I</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="25d484b2-09ea-479d-aa89-99ae67ed6104">
+						<Name>Li</Name>
+						<Code/>
+						<Description>Li</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="e0de2cd0-70b7-47da-ad7e-4e57936a1713">
+						<Name>Mn</Name>
+						<Code/>
+						<Description>Mn</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="0406297a-0a2f-4391-a72d-62f13c95904d">
+						<Name>Mo</Name>
+						<Code/>
+						<Description>Mo</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="44ed3f96-dfd3-4d4e-81eb-2e0e95fbbb2e">
+						<Name>Ni</Name>
+						<Code/>
+						<Description>Ni</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="b3d98fa7-c994-45c6-bc70-4967325a50ba">
+						<Name>Se</Name>
+						<Code/>
+						<Description>Se</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="36ab9085-140a-4df1-b065-4c946abe2ebb">
+						<Name>V</Name>
+						<Code/>
+						<Description>V</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+					<Item id="4fb1c32d-0a93-46d7-9a9d-ae2cb9a09f72">
+						<Name>Zn</Name>
+						<Code/>
+						<Description>Zn</Description>
+						<IsFolder>false</IsFolder>
+					</Item>
+				</ChildItems>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="1b3cdc9d-94ed-4f42-a3b3-a2e23a56b1f6">
+		<Name>Углеводы_</Name>
+		<Code/>
+		<Description>Углеводы</Description>
+		<IsFolder>true</IsFolder>
+		<ChildItems>
+			<Item id="a52d84af-0b49-447d-9a28-f2ac4365d9b0">
+				<Name>ПищевыеВолокна</Name>
+				<Code/>
+				<Description>Пищевые волокна</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="38b4acb3-a0ed-4d2a-982a-2fa2e5d9580f">
+				<Name>ПростыеУглеводы</Name>
+				<Code/>
+				<Description>Простые углеводы</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+			<Item id="f9be9751-0799-4dc2-847a-4c3badae3622">
+				<Name>СложныеУглеводы</Name>
+				<Code/>
+				<Description>Сложные углеводы</Description>
+				<IsFolder>false</IsFolder>
+			</Item>
+		</ChildItems>
+	</Item>
+	<Item id="f20d7fc5-540a-47a3-b000-2e55740170c4">
+		<Name>Вода</Name>
+		<Code/>
+		<Description>Вода</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b9920fac-59ed-44b7-9915-420e961b6338">
+		<Name>Калорийность</Name>
+		<Code/>
+		<Description>Калорийность</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

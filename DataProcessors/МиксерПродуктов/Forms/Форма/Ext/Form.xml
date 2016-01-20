@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Родитель" id="83">
+			<DataPath>Объект.Родитель</DataPath>
+			<ContextMenu name="РодительКонтекстноеМеню" id="84"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="85"/>
+		</InputField>
+		<InputField name="Продукт" id="56">
+			<DataPath>Объект.Продукт</DataPath>
+			<ContextMenu name="ПродуктКонтекстноеМеню" id="57"/>
+			<ExtendedTooltip name="ПродуктРасширеннаяПодсказка" id="58"/>
+			<Events>
+				<Event name="OnChange">ПродуктПриИзменении</Event>
+			</Events>
+		</InputField>
+		<Pages name="Страницы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<Page name="ГруппаПродукты" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Продукты</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаПродуктыРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<Table name="Продукты" id="5">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Продукты</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПродуктыКонтекстноеМеню" id="6"/>
+							<AutoCommandBar name="ПродуктыКоманднаяПанель" id="7"/>
+							<ExtendedTooltip name="ПродуктыРасширеннаяПодсказка" id="8"/>
+							<SearchStringAddition name="ПродуктыСтрокаПоиска" id="9">
+								<Source>
+									<lf:elementId>5</lf:elementId>
+									<lf:additionId>0</lf:additionId>
+								</Source>
+								<ContextMenu name="ПродуктыСтрокаПоискаКонтекстноеМеню" id="10"/>
+								<ExtendedTooltip name="ПродуктыСтрокаПоискаРасширеннаяПодсказка" id="11"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПродуктыСостояниеПросмотра" id="12">
+								<Source>
+									<lf:elementId>5</lf:elementId>
+									<lf:additionId>1</lf:additionId>
+								</Source>
+								<ContextMenu name="ПродуктыСостояниеПросмотраКонтекстноеМеню" id="13"/>
+								<ExtendedTooltip name="ПродуктыСостояниеПросмотраРасширеннаяПодсказка" id="14"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПродуктыУправлениеПоиском" id="15">
+								<Source>
+									<lf:elementId>5</lf:elementId>
+									<lf:additionId>2</lf:additionId>
+								</Source>
+								<ContextMenu name="ПродуктыУправлениеПоискомКонтекстноеМеню" id="16"/>
+								<ExtendedTooltip name="ПродуктыУправлениеПоискомРасширеннаяПодсказка" id="17"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnChange">ПродуктыПриИзменении</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="ПродуктыНомерСтроки" id="18">
+									<DataPath>Объект.Продукты.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПродуктыНомерСтрокиКонтекстноеМеню" id="19"/>
+									<ExtendedTooltip name="ПродуктыНомерСтрокиРасширеннаяПодсказка" id="20"/>
+								</LabelField>
+								<InputField name="ПродуктыПродукт" id="21">
+									<DataPath>Объект.Продукты.Продукт</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПродуктыПродуктКонтекстноеМеню" id="22"/>
+									<ExtendedTooltip name="ПродуктыПродуктРасширеннаяПодсказка" id="23"/>
+								</InputField>
+								<InputField name="ПродуктыИмяПараметра" id="48">
+									<DataPath>Объект.Продукты.ИмяПараметра</DataPath>
+									<ReadOnly>true</ReadOnly>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПродуктыИмяПараметраКонтекстноеМеню" id="49"/>
+									<ExtendedTooltip name="ПродуктыИмяПараметраРасширеннаяПодсказка" id="50"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаПравила" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Правила</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа правила</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ГруппаПравилаРасширеннаяПодсказка" id="25"/>
+					<ChildItems>
+						<Table name="ПравилаОбъединения" id="26">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.ПравилаОбъединения</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ПравилаОбъединенияКонтекстноеМеню" id="27">
+								<ChildItems>
+									<Button name="ПравилаОбъединенияКонтекстноеМенюВзятьПоказатель" id="71">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.ВзятьПоказатель</CommandName>
+										<Parameter xsi:nil="true"/>
+										<ExtendedTooltip name="ПравилаОбъединенияКонтекстноеМенюВзятьПоказательРасширеннаяПодсказка" id="72"/>
+									</Button>
+									<Button name="ПравилаОбъединенияКонтекстноеМенюСреднееАрифметическое" id="67">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СреднееАрифметическое</CommandName>
+										<Parameter xsi:nil="true"/>
+										<ExtendedTooltip name="ПравилаОбъединенияКонтекстноеМенюСреднееАрифметическоеРасширеннаяПодсказка" id="68"/>
+									</Button>
+									<Button name="ПравилаОбъединенияКонтекстноеМенюСреднееКвадратичное" id="65">
+										<Type>CommandBarButton</Type>
+										<CommandName>Form.Command.СреднееКвадратичное</CommandName>
+										<Parameter xsi:nil="true"/>
+										<ExtendedTooltip name="ПравилаОбъединенияКонтекстноеМенюСреднееКвадратичноеРасширеннаяПодсказка" id="66"/>
+									</Button>
+								</ChildItems>
+							</ContextMenu>
+							<AutoCommandBar name="ПравилаОбъединенияКоманднаяПанель" id="28">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ПравилаОбъединенияРасширеннаяПодсказка" id="29"/>
+							<SearchStringAddition name="ПравилаОбъединенияСтрокаПоиска" id="30">
+								<Source>
+									<lf:elementId>26</lf:elementId>
+									<lf:additionId>0</lf:additionId>
+								</Source>
+								<ContextMenu name="ПравилаОбъединенияСтрокаПоискаКонтекстноеМеню" id="31"/>
+								<ExtendedTooltip name="ПравилаОбъединенияСтрокаПоискаРасширеннаяПодсказка" id="32"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ПравилаОбъединенияСостояниеПросмотра" id="33">
+								<Source>
+									<lf:elementId>26</lf:elementId>
+									<lf:additionId>1</lf:additionId>
+								</Source>
+								<ContextMenu name="ПравилаОбъединенияСостояниеПросмотраКонтекстноеМеню" id="34"/>
+								<ExtendedTooltip name="ПравилаОбъединенияСостояниеПросмотраРасширеннаяПодсказка" id="35"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ПравилаОбъединенияУправлениеПоиском" id="36">
+								<Source>
+									<lf:elementId>26</lf:elementId>
+									<lf:additionId>2</lf:additionId>
+								</Source>
+								<ContextMenu name="ПравилаОбъединенияУправлениеПоискомКонтекстноеМеню" id="37"/>
+								<ExtendedTooltip name="ПравилаОбъединенияУправлениеПоискомРасширеннаяПодсказка" id="38"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ПравилаОбъединенияНомерСтроки" id="39">
+									<DataPath>Объект.ПравилаОбъединения.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПравилаОбъединенияНомерСтрокиКонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="ПравилаОбъединенияНомерСтрокиРасширеннаяПодсказка" id="41"/>
+								</LabelField>
+								<InputField name="ПравилаОбъединенияПараметр" id="42">
+									<DataPath>Объект.ПравилаОбъединения.Параметр</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПравилаОбъединенияПараметрКонтекстноеМеню" id="43"/>
+									<ExtendedTooltip name="ПравилаОбъединенияПараметрРасширеннаяПодсказка" id="44"/>
+								</InputField>
+								<InputField name="ПравилаОбъединенияТекЗначение" id="59">
+									<DataPath>Объект.ПравилаОбъединения.ТекЗначение</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПравилаОбъединенияТекЗначениеКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="ПравилаОбъединенияТекЗначениеРасширеннаяПодсказка" id="61"/>
+								</InputField>
+								<InputField name="ПравилаОбъединенияПравило" id="45">
+									<DataPath>Объект.ПравилаОбъединения.Правило</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ChoiceButton>true</ChoiceButton>
+									<ContextMenu name="ПравилаОбъединенияПравилоКонтекстноеМеню" id="46"/>
+									<ExtendedTooltip name="ПравилаОбъединенияПравилоРасширеннаяПодсказка" id="47"/>
+									<Events>
+										<Event name="StartChoice">ПравилаОбъединенияПравилоНачалоВыбора</Event>
+									</Events>
+								</InputField>
+								<InputField name="ПравилаОбъединенияПроизвольныйПараметр" id="51">
+									<DataPath>Объект.ПравилаОбъединения.ПроизвольныйПараметр</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ПравилаОбъединенияПроизвольныйПараметрКонтекстноеМеню" id="52"/>
+									<ExtendedTooltip name="ПравилаОбъединенияПроизвольныйПараметрРасширеннаяПодсказка" id="53"/>
+								</InputField>
+								<ColumnGroup name="ПравилаОбъединенияГруппаДанныеПродуктов" id="54">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Правила объединения группа данные продуктов</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Правила объединения группа данные продуктов</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>Horizontal</Group>
+									<ExtendedTooltip name="ПравилаОбъединенияГруппаДанныеПродуктовРасширеннаяПодсказка" id="55"/>
+								</ColumnGroup>
+							</ChildItems>
+						</Table>
+						<InputField name="ТекущееПравило" id="62">
+							<DataPath>Items.ПравилаОбъединения.CurrentData.Правило</DataPath>
+							<Width>2</Width>
+							<VerticalStretch>false</VerticalStretch>
+							<MultiLine>true</MultiLine>
+							<ContextMenu name="ТекущееПравилоКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="ТекущееПравилоРасширеннаяПодсказка" id="64"/>
+						</InputField>
+						<UsualGroup name="ГруппаПодвал" id="73">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа подвал</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа подвал</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Horizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="74"/>
+							<ChildItems>
+								<LabelDecoration name="Декорация2" id="78">
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="Декорация2КонтекстноеМеню" id="79"/>
+									<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="80"/>
+								</LabelDecoration>
+								<Button name="Записать" id="81">
+									<Type>UsualButton</Type>
+									<CommandName>Form.Command.ЗаписатьПродукт</CommandName>
+									<Parameter xsi:nil="true"/>
+									<ExtendedTooltip name="ЗаписатьРасширеннаяПодсказка" id="82"/>
+								</Button>
+								<LabelDecoration name="Декорация1" id="75">
+									<HorizontalStretch>true</HorizontalStretch>
+									<ContextMenu name="Декорация1КонтекстноеМеню" id="76"/>
+									<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="77"/>
+								</LabelDecoration>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.МиксерПродуктов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="СреднееАрифметическое" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Среднее арифметическое</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Среднее арифметическое</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СреднееАрифметическое</Action>
+		</Command>
+		<Command name="СреднееКвадратичное" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Среднее квадратичное</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Среднее арифметическое</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>СреднееКвадратичное</Action>
+		</Command>
+		<Command name="ВзятьПоказатель" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Взять показатель</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Взять показатель</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ВзятьПоказатель</Action>
+		</Command>
+		<Command name="ЗаписатьПродукт" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать продукт</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать продукт</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаписатьПродукт</Action>
+		</Command>
+	</Commands>
+</Form>

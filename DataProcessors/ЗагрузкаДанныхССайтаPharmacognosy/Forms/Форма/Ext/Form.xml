@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="СтраницаГруппы" id="76">
+			<DataPath>Объект.СтраницаГруппы</DataPath>
+			<ContextMenu name="СтраницаГруппыКонтекстноеМеню" id="77"/>
+			<ExtendedTooltip name="СтраницаГруппыРасширеннаяПодсказка" id="78"/>
+			<Events>
+				<Event name="OnChange">СтраницаГруппыПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Родитель" id="71">
+			<DataPath>Объект.Родитель</DataPath>
+			<ContextMenu name="РодительКонтекстноеМеню" id="72"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="73"/>
+		</InputField>
+		<UsualGroup name="ГруппаШапка" id="26">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа шапка</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаШапкаРасширеннаяПодсказка" id="27"/>
+			<ChildItems>
+				<Table name="СписокАдресов" id="1">
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.СписокАдресов</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="СписокАдресовКонтекстноеМеню" id="2"/>
+					<AutoCommandBar name="СписокАдресовКоманднаяПанель" id="3">
+						<ChildItems>
+							<Button name="СписокАдресовПолучитьСсылки" id="69">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<CommandName>Form.Command.ПолучитьСсылки</CommandName>
+								<Parameter xsi:nil="true"/>
+								<Picture>
+									<xr:Ref>StdPicture.Find</xr:Ref>
+									<xr:LoadTransparent>true</xr:LoadTransparent>
+								</Picture>
+								<ExtendedTooltip name="СписокАдресовПолучитьСсылкиРасширеннаяПодсказка" id="70"/>
+							</Button>
+							<Button name="СписокАдресовДалее" id="53">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<CommandName>Form.Command.Далее</CommandName>
+								<Parameter xsi:nil="true"/>
+								<Picture>
+									<xr:Ref>StdPicture.MoveDown</xr:Ref>
+									<xr:LoadTransparent>true</xr:LoadTransparent>
+								</Picture>
+								<ExtendedTooltip name="СписокАдресовДалееРасширеннаяПодсказка" id="54"/>
+							</Button>
+							<Button name="СписокАдресовПолучитьДанные" id="55">
+								<Type>CommandBarButton</Type>
+								<Representation>Picture</Representation>
+								<CommandName>Form.Command.ПолучитьДанные</CommandName>
+								<Parameter xsi:nil="true"/>
+								<Picture>
+									<xr:Ref>StdPicture.ShowInList</xr:Ref>
+									<xr:LoadTransparent>true</xr:LoadTransparent>
+								</Picture>
+								<ExtendedTooltip name="СписокАдресовПолучитьДанныеРасширеннаяПодсказка" id="56"/>
+							</Button>
+							<Button name="СписокАдресовЗагрузитьВсе" id="74">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ЗагрузитьВсе</CommandName>
+								<Parameter xsi:nil="true"/>
+								<ExtendedTooltip name="СписокАдресовЗагрузитьВсеРасширеннаяПодсказка" id="75"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="СписокАдресовРасширеннаяПодсказка" id="4"/>
+					<SearchStringAddition name="СписокАдресовСтрокаПоиска" id="5">
+						<Source>
+							<lf:elementId>1</lf:elementId>
+							<lf:additionId>0</lf:additionId>
+						</Source>
+						<ContextMenu name="СписокАдресовСтрокаПоискаКонтекстноеМеню" id="6"/>
+						<ExtendedTooltip name="СписокАдресовСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="СписокАдресовСостояниеПросмотра" id="8">
+						<Source>
+							<lf:elementId>1</lf:elementId>
+							<lf:additionId>1</lf:additionId>
+						</Source>
+						<ContextMenu name="СписокАдресовСостояниеПросмотраКонтекстноеМеню" id="9"/>
+						<ExtendedTooltip name="СписокАдресовСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="СписокАдресовУправлениеПоиском" id="11">
+						<Source>
+							<lf:elementId>1</lf:elementId>
+							<lf:additionId>2</lf:additionId>
+						</Source>
+						<ContextMenu name="СписокАдресовУправлениеПоискомКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="СписокАдресовУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="OnActivateRow">СписокАдресовПриАктивизацииСтроки</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="СписокАдресовНомерСтроки" id="14">
+							<DataPath>Объект.СписокАдресов.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокАдресовНомерСтрокиКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="СписокАдресовНомерСтрокиРасширеннаяПодсказка" id="16"/>
+						</LabelField>
+						<InputField name="СписокАдресовАдресURL" id="17">
+							<DataPath>Объект.СписокАдресов.АдресURL</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокАдресовАдресURLКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="СписокАдресовАдресURLРасширеннаяПодсказка" id="19"/>
+						</InputField>
+						<InputField name="СписокАдресовНаименование" id="23">
+							<DataPath>Объект.СписокАдресов.Наименование</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="СписокАдресовНаименованиеКонтекстноеМеню" id="24"/>
+							<ExtendedTooltip name="СписокАдресовНаименованиеРасширеннаяПодсказка" id="25"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+				<Table name="ХимСостав" id="28">
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.ХимСостав</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ХимСоставКонтекстноеМеню" id="29"/>
+					<AutoCommandBar name="ХимСоставКоманднаяПанель" id="30"/>
+					<ExtendedTooltip name="ХимСоставРасширеннаяПодсказка" id="31"/>
+					<SearchStringAddition name="ХимСоставСтрокаПоиска" id="32">
+						<Source>
+							<lf:elementId>28</lf:elementId>
+							<lf:additionId>0</lf:additionId>
+						</Source>
+						<ContextMenu name="ХимСоставСтрокаПоискаКонтекстноеМеню" id="33"/>
+						<ExtendedTooltip name="ХимСоставСтрокаПоискаРасширеннаяПодсказка" id="34"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ХимСоставСостояниеПросмотра" id="35">
+						<Source>
+							<lf:elementId>28</lf:elementId>
+							<lf:additionId>1</lf:additionId>
+						</Source>
+						<ContextMenu name="ХимСоставСостояниеПросмотраКонтекстноеМеню" id="36"/>
+						<ExtendedTooltip name="ХимСоставСостояниеПросмотраРасширеннаяПодсказка" id="37"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ХимСоставУправлениеПоиском" id="38">
+						<Source>
+							<lf:elementId>28</lf:elementId>
+							<lf:additionId>2</lf:additionId>
+						</Source>
+						<ContextMenu name="ХимСоставУправлениеПоискомКонтекстноеМеню" id="39"/>
+						<ExtendedTooltip name="ХимСоставУправлениеПоискомРасширеннаяПодсказка" id="40"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="ХимСоставНомерСтроки" id="41">
+							<DataPath>Объект.ХимСостав.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ХимСоставНомерСтрокиКонтекстноеМеню" id="42"/>
+							<ExtendedTooltip name="ХимСоставНомерСтрокиРасширеннаяПодсказка" id="43"/>
+						</LabelField>
+						<InputField name="ХимСоставНаименование" id="44">
+							<DataPath>Объект.ХимСостав.Наименование</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ХимСоставНаименованиеКонтекстноеМеню" id="45"/>
+							<ExtendedTooltip name="ХимСоставНаименованиеРасширеннаяПодсказка" id="46"/>
+						</InputField>
+						<InputField name="ХимСоставНутриент" id="47">
+							<DataPath>Объект.ХимСостав.Нутриент</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ХимСоставНутриентКонтекстноеМеню" id="48"/>
+							<ExtendedTooltip name="ХимСоставНутриентРасширеннаяПодсказка" id="49"/>
+						</InputField>
+						<InputField name="ХимСоставКоличество" id="50">
+							<DataPath>Объект.ХимСостав.Количество</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ХимСоставКоличествоКонтекстноеМеню" id="51"/>
+							<ExtendedTooltip name="ХимСоставКоличествоРасширеннаяПодсказка" id="52"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<HTMLDocumentField name="Страница" id="20">
+			<DataPath>Страница</DataPath>
+			<TitleLocation>None</TitleLocation>
+			<ContextMenu name="СтраницаКонтекстноеМеню" id="21"/>
+			<ExtendedTooltip name="СтраницаРасширеннаяПодсказка" id="22"/>
+		</HTMLDocumentField>
+		<UsualGroup name="ГруппаПодвал" id="57">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="58"/>
+			<ChildItems>
+				<LabelDecoration name="Декорация1" id="59">
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="61"/>
+				</LabelDecoration>
+				<Button name="ЗагрузитьДанные" id="65">
+					<Type>UsualButton</Type>
+					<CommandName>Form.Command.ЗагрузитьДанные</CommandName>
+					<Parameter xsi:nil="true"/>
+					<ExtendedTooltip name="ЗагрузитьДанныеРасширеннаяПодсказка" id="66"/>
+				</Button>
+				<LabelDecoration name="Декорация2" id="62">
+					<HorizontalStretch>true</HorizontalStretch>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="64"/>
+				</LabelDecoration>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ЗагрузкаДанныхССайтаPharmacognosy</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Страница" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страница</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Далее" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Далее</Action>
+		</Command>
+		<Command name="ПолучитьДанные" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Далее</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьДанные</Action>
+		</Command>
+		<Command name="ЗагрузитьДанные" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить данные</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьДанные</Action>
+		</Command>
+		<Command name="ПолучитьСсылки" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить ссылки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить ссылки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьСсылки</Action>
+		</Command>
+		<Command name="ЗагрузитьВсе" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить все</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Загрузить все</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗагрузитьВсе</Action>
+		</Command>
+	</Commands>
+</Form>

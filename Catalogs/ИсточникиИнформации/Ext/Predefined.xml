@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.0">
+	<Item id="1ebbb486-caaf-45fb-a87a-29fa3e38747c">
+		<Name>INTELMEAL</Name>
+		<Code/>
+		<Description>INTELMEAL</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="e8b5f2ae-5cd5-45f3-b46b-ea5cb5e6dc44">
+		<Name>USDA_NND</Name>
+		<Code/>
+		<Description>USDA NND</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="584f08f0-82c7-49d2-bbd1-3d6a7eb701d9">
+		<Name>USDA_NND_SR28</Name>
+		<Code/>
+		<Description>USDA NND SR28</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="906ff44e-1529-4939-8e7d-9e5742056377">
+		<Name>КМУ_УАНМ</Name>
+		<Code/>
+		<Description>КМУ_УАНМ</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
