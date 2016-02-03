@@ -27,6 +27,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаДанныхUSDA_NND</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ПотреблениеНутриентовЗаПериод</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаИзExcel_sr28</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МиксерПродуктов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>

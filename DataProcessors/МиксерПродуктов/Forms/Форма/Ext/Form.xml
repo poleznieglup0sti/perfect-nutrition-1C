@@ -224,8 +224,10 @@
 						<InputField name="ТекущееПравило" id="62">
 							<DataPath>Items.ПравилаОбъединения.CurrentData.Правило</DataPath>
 							<Width>2</Width>
+							<HorizontalStretch>true</HorizontalStretch>
 							<VerticalStretch>false</VerticalStretch>
 							<MultiLine>true</MultiLine>
+							<ChooseType>false</ChooseType>
 							<ContextMenu name="ТекущееПравилоКонтекстноеМеню" id="63"/>
 							<ExtendedTooltip name="ТекущееПравилоРасширеннаяПодсказка" id="64"/>
 						</InputField>
