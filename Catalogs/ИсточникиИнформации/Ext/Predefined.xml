@@ -24,4 +24,10 @@
 		<Description>КМУ_УАНМ</Description>
 		<IsFolder>false</IsFolder>
 	</Item>
+	<Item id="90e8d8b2-0612-4b7d-8ab0-09f2fb13875b">
+		<Name>Эталон</Name>
+		<Code/>
+		<Description>Эталон</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
 </PredefinedData>

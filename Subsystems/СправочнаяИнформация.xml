@@ -20,11 +20,8 @@
 			<Content>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Нутриенты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.СодержаниеНутриентовВПродуктах</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.НормыНутриентов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.ХимическийСоставПродуктов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетПоНарушениям</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МастерСозданияИндивидуальнойНомры</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.МиксерПродуктов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

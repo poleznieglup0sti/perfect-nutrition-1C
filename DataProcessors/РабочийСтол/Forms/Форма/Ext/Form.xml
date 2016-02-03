@@ -461,6 +461,7 @@
 									</Title>
 									<Width>20</Width>
 									<Group>Vertical</Group>
+									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
 									<ExtendedTooltip name="ГруппаРекомендацияЕфимовРасширеннаяПодсказка" id="62"/>
 									<ChildItems>
@@ -479,135 +480,10 @@
 											<ContextMenu name="ЛекцияЕфимоваКонтекстноеМеню" id="79"/>
 											<ExtendedTooltip name="ЛекцияЕфимоваРасширеннаяПодсказка" id="80"/>
 										</LabelDecoration>
-									</ChildItems>
-								</UsualGroup>
-								<UsualGroup name="ГруппаРекомендацияФКТАлтай" id="63">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ФКТ Алтай</v8:content>
-										</v8:item>
-									</Title>
-									<Width>20</Width>
-									<Group>Vertical</Group>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаРекомендацияФКТАлтайРасширеннаяПодсказка" id="64"/>
-									<ChildItems>
-										<LabelDecoration name="ФКТАлтай" id="81">
-											<HorizontalStretch>true</HorizontalStretch>
-											<TextColor>style:FieldSelectionBackColor</TextColor>
-											<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Фонд концептуальных технологий</v8:content>
-												</v8:item>
-											</Title>
-											<HorizontalAlign>Center</HorizontalAlign>
-											<VerticalAlign>Top</VerticalAlign>
-											<ContextMenu name="ФКТАлтайКонтекстноеМеню" id="82"/>
-											<ExtendedTooltip name="ФКТАлтайРасширеннаяПодсказка" id="83"/>
-										</LabelDecoration>
-									</ChildItems>
-								</UsualGroup>
-								<UsualGroup name="ГруппаРекомендацияЗаконВремени" id="68">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Студия Закон Времени</v8:content>
-										</v8:item>
-									</Title>
-									<Width>20</Width>
-									<Group>Vertical</Group>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаРекомендацияЗаконВремениРасширеннаяПодсказка" id="69"/>
-									<ChildItems>
-										<LabelDecoration name="СтудияЗаконВремени" id="84">
-											<HorizontalStretch>true</HorizontalStretch>
-											<TextColor>style:FieldSelectionBackColor</TextColor>
-											<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>Студия "Закон Времени"</v8:content>
-												</v8:item>
-											</Title>
-											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-											<HorizontalAlign>Center</HorizontalAlign>
-											<VerticalAlign>Center</VerticalAlign>
-											<ContextMenu name="СтудияЗаконВремениКонтекстноеМеню" id="85"/>
-											<ExtendedTooltip name="СтудияЗаконВремениРасширеннаяПодсказка" id="86"/>
-										</LabelDecoration>
-									</ChildItems>
-								</UsualGroup>
-								<UsualGroup name="ГруппаРекомендацияВПСССР" id="73">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ВП СССР</v8:content>
-										</v8:item>
-									</Title>
-									<Width>20</Width>
-									<HorizontalStretch>true</HorizontalStretch>
-									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-									<Group>Vertical</Group>
-									<ChildItemsWidth>Equal</ChildItemsWidth>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаРекомендацияВПСССРРасширеннаяПодсказка" id="74"/>
-									<ChildItems>
-										<LabelDecoration name="ВПСССР" id="87">
-											<HorizontalStretch>true</HorizontalStretch>
-											<TextColor>style:FieldSelectionBackColor</TextColor>
-											<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
-											<Title formatted="false">
-												<v8:item>
-													<v8:lang>ru</v8:lang>
-													<v8:content>ВП СССР</v8:content>
-												</v8:item>
-											</Title>
-											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
-											<HorizontalAlign>Center</HorizontalAlign>
-											<VerticalAlign>Top</VerticalAlign>
-											<ContextMenu name="ВПСССРКонтекстноеМеню" id="88"/>
-											<ExtendedTooltip name="ВПСССРРасширеннаяПодсказка" id="89"/>
-										</LabelDecoration>
-									</ChildItems>
-								</UsualGroup>
-							</ChildItems>
-						</UsualGroup>
-						<UsualGroup name="ГруппаРекомендацииПодвал" id="90">
-							<Title>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Рекомендации</v8:content>
-								</v8:item>
-							</Title>
-							<ToolTip>
-								<v8:item>
-									<v8:lang>ru</v8:lang>
-									<v8:content>Группа рекомендации</v8:content>
-								</v8:item>
-							</ToolTip>
-							<Group>Horizontal</Group>
-							<Representation>None</Representation>
-							<ChildItemsWidth>Equal</ChildItemsWidth>
-							<ShowTitle>false</ShowTitle>
-							<ExtendedTooltip name="ГруппаРекомендацииПодвалРасширеннаяПодсказка" id="91"/>
-							<ChildItems>
-								<UsualGroup name="ГруппаРекомендацияЕфимов1" id="92">
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>Лекция в Академии ФСБ</v8:content>
-										</v8:item>
-									</Title>
-									<Width>20</Width>
-									<Group>Vertical</Group>
-									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаРекомендацияЕфимов1РасширеннаяПодсказка" id="93"/>
-									<ChildItems>
 										<PictureDecoration name="Декорация15" id="97">
-											<HorizontalStretch>true</HorizontalStretch>
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<VerticalStretch>false</VerticalStretch>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -629,7 +505,7 @@
 										</PictureDecoration>
 									</ChildItems>
 								</UsualGroup>
-								<UsualGroup name="ГруппаРекомендацияФКТАлтай1" id="100">
+								<UsualGroup name="ГруппаРекомендацияФКТАлтай" id="63">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -638,11 +514,29 @@
 									</Title>
 									<Width>20</Width>
 									<Group>Vertical</Group>
+									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаРекомендацияФКТАлтай1РасширеннаяПодсказка" id="101"/>
+									<ExtendedTooltip name="ГруппаРекомендацияФКТАлтайРасширеннаяПодсказка" id="64"/>
 									<ChildItems>
-										<PictureDecoration name="Декорация16" id="105">
+										<LabelDecoration name="ФКТАлтай" id="81">
 											<HorizontalStretch>true</HorizontalStretch>
+											<TextColor>style:FieldSelectionBackColor</TextColor>
+											<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Фонд концептуальных технологий</v8:content>
+												</v8:item>
+											</Title>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<VerticalAlign>Top</VerticalAlign>
+											<ContextMenu name="ФКТАлтайКонтекстноеМеню" id="82"/>
+											<ExtendedTooltip name="ФКТАлтайРасширеннаяПодсказка" id="83"/>
+										</LabelDecoration>
+										<PictureDecoration name="Декорация16" id="105">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<VerticalStretch>false</VerticalStretch>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -664,7 +558,7 @@
 										</PictureDecoration>
 									</ChildItems>
 								</UsualGroup>
-								<UsualGroup name="ГруппаРекомендацияЗаконВремени1" id="108">
+								<UsualGroup name="ГруппаРекомендацияЗаконВремени" id="68">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -673,11 +567,30 @@
 									</Title>
 									<Width>20</Width>
 									<Group>Vertical</Group>
+									<Representation>None</Representation>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаРекомендацияЗаконВремени1РасширеннаяПодсказка" id="109"/>
+									<ExtendedTooltip name="ГруппаРекомендацияЗаконВремениРасширеннаяПодсказка" id="69"/>
 									<ChildItems>
-										<PictureDecoration name="Декорация17" id="113">
+										<LabelDecoration name="СтудияЗаконВремени" id="84">
 											<HorizontalStretch>true</HorizontalStretch>
+											<TextColor>style:FieldSelectionBackColor</TextColor>
+											<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Студия "Закон Времени"</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<VerticalAlign>Center</VerticalAlign>
+											<ContextMenu name="СтудияЗаконВремениКонтекстноеМеню" id="85"/>
+											<ExtendedTooltip name="СтудияЗаконВремениРасширеннаяПодсказка" id="86"/>
+										</LabelDecoration>
+										<PictureDecoration name="Декорация17" id="113">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<VerticalStretch>false</VerticalStretch>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>
@@ -699,7 +612,7 @@
 										</PictureDecoration>
 									</ChildItems>
 								</UsualGroup>
-								<UsualGroup name="ГруппаРекомендацияВПСССР1" id="116">
+								<UsualGroup name="ГруппаРекомендацияВПСССР" id="73">
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
@@ -707,13 +620,34 @@
 										</v8:item>
 									</Title>
 									<Width>20</Width>
+									<HorizontalStretch>true</HorizontalStretch>
+									<GroupHorizontalAlign>Center</GroupHorizontalAlign>
 									<Group>Vertical</Group>
+									<Representation>None</Representation>
 									<ChildItemsWidth>Equal</ChildItemsWidth>
 									<ShowTitle>false</ShowTitle>
-									<ExtendedTooltip name="ГруппаРекомендацияВПСССР1РасширеннаяПодсказка" id="117"/>
+									<ExtendedTooltip name="ГруппаРекомендацияВПСССРРасширеннаяПодсказка" id="74"/>
 									<ChildItems>
-										<PictureDecoration name="Декорация18" id="121">
+										<LabelDecoration name="ВПСССР" id="87">
 											<HorizontalStretch>true</HorizontalStretch>
+											<TextColor>style:FieldSelectionBackColor</TextColor>
+											<Font ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>ВП СССР</v8:content>
+												</v8:item>
+											</Title>
+											<GroupHorizontalAlign>Center</GroupHorizontalAlign>
+											<HorizontalAlign>Center</HorizontalAlign>
+											<VerticalAlign>Top</VerticalAlign>
+											<ContextMenu name="ВПСССРКонтекстноеМеню" id="88"/>
+											<ExtendedTooltip name="ВПСССРРасширеннаяПодсказка" id="89"/>
+										</LabelDecoration>
+										<PictureDecoration name="Декорация18" id="121">
+											<AutoMaxWidth>false</AutoMaxWidth>
+											<AutoMaxHeight>false</AutoMaxHeight>
+											<VerticalStretch>false</VerticalStretch>
 											<Title formatted="false">
 												<v8:item>
 													<v8:lang>ru</v8:lang>

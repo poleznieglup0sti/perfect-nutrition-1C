@@ -29,7 +29,6 @@
 		</Properties>
 		<ChildObjects>
 			<Form>Форма</Form>
-			<Template>Файл_USDANationalNutrientDatabase</Template>
 		</ChildObjects>
 	</DataProcessor>
 </MetaDataObject>
