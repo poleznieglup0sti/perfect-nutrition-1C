@@ -276,12 +276,6 @@
 				<Description>Витамин P</Description>
 				<IsFolder>false</IsFolder>
 			</Item>
-			<Item id="ba17b977-0321-4fc0-b157-101e7e29660d">
-				<Name>ВитаминPP</Name>
-				<Code/>
-				<Description>Витамин PP</Description>
-				<IsFolder>false</IsFolder>
-			</Item>
 			<Item id="bf1cd8e7-72d4-4c8d-ad30-7243418c565e">
 				<Name>ВитаминU</Name>
 				<Code/>
