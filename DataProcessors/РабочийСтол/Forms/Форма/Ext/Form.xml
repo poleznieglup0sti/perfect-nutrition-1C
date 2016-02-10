@@ -673,6 +673,34 @@
 						</UsualGroup>
 					</ChildItems>
 				</Page>
+				<Page name="ГруппаНачалоРаботы" id="142">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начало работы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа начало работы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<HorizontalStretch>true</HorizontalStretch>
+					<ExtendedTooltip name="ГруппаНачалоРаботыРасширеннаяПодсказка" id="143"/>
+					<ChildItems>
+						<PictureDecoration name="Декорация19" id="144">
+							<HorizontalStretch>true</HorizontalStretch>
+							<VerticalStretch>true</VerticalStretch>
+							<Picture>
+								<xr:Ref>CommonPicture.НачалоРаботы</xr:Ref>
+								<xr:LoadTransparent>false</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="Декорация19КонтекстноеМеню" id="145"/>
+							<ExtendedTooltip name="Декорация19РасширеннаяПодсказка" id="146"/>
+						</PictureDecoration>
+					</ChildItems>
+				</Page>
 			</ChildItems>
 		</Pages>
 	</ChildItems>

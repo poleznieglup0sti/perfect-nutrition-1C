@@ -58,14 +58,17 @@
 	<totalField>
 		<dataPath>Количество</dataPath>
 		<expression>Сумма(Количество)</expression>
+		<group>Нутриент</group>
 	</totalField>
 	<totalField>
 		<dataPath>МаксКоличество</dataPath>
 		<expression>Сумма(МаксКоличество)</expression>
+		<group>Нутриент</group>
 	</totalField>
 	<totalField>
 		<dataPath>МинКоличество</dataPath>
 		<expression>Сумма(МинКоличество)</expression>
+		<group>Нутриент</group>
 	</totalField>
 	<settingsVariant>
 		<dcsset:name>Основной</dcsset:name>

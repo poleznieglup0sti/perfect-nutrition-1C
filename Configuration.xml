@@ -251,6 +251,7 @@
 			<CommonPicture>Нутриент_Калорийность</CommonPicture>
 			<CommonPicture>Нутриент_ПищевыеВолокна</CommonPicture>
 			<CommonPicture>Норма</CommonPicture>
+			<CommonPicture>НачалоРаботы</CommonPicture>
 			<SessionParameter>АвторизованныйПользователь</SessionParameter>
 			<SessionParameter>ВыполняетсяОбновлениеИБ</SessionParameter>
 			<SessionParameter>ПараметрыКлиентаНаСервере</SessionParameter>
